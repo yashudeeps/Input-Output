@@ -1,0 +1,13 @@
+n = int(input())
+l=[]
+e=[]
+o=[]
+for i in range(n):
+    l.append(int(input()))
+    if l[i]%2==0:
+        e.append(l[i])
+    else:
+        o.append(l[i])
+        
+print("The even list",e)
+print("The odd list",o)

@@ -1,0 +1,5 @@
+a=int(input())
+b=int(input())#python
+f=a%b
+g=a//b
+print("The number of students in each team is",g, "and left out is",f)

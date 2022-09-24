@@ -1,0 +1,4 @@
+a=int(input())
+b=int(input())
+c=pow(a,b)
+print("the power of the numbers is %d "%c)

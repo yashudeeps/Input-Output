@@ -1,0 +1,9 @@
+#python
+s=float(input())
+d=float(input())
+t=float(input())
+speed=s*d
+if(t<speed):
+    print("yes")
+else:
+    print("no")

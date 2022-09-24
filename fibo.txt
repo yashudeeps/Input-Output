@@ -1,0 +1,14 @@
+def fibanacci(n,a,b):
+    if n!=0:
+        c=a+b
+        print(c,end=" ")
+        n=n-1
+        a=b
+        b=c
+        fibanacci(n,a,b)
+    
+
+n= int(input())
+a=-1
+b=1
+fibanacci(n,a,b)

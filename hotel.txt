@@ -1,0 +1,12 @@
+m = int(input())
+r = float(input())
+d = int(input())
+if m in range(4,7) or m in range(11,13):
+    r = r + r/5
+    sum = r*d
+    print("Hotel Tariff: Rs.%.2f"%sum)
+elif m in range(1,4) or m in range(7,11):
+    sum = r*d
+    print("Hotel Tariff: Rs.%.2f"%sum)
+else:
+    print("Invalid Input")

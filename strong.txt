@@ -1,0 +1,15 @@
+n=int(input())
+c=n
+sum=0
+while(c>0):
+    fact=1
+    rem=c%10
+    while(rem>0):
+        fact=fact*rem
+        rem=rem-1
+    sum=sum+fact
+    c=c//10
+if(sum==n and n!=0):
+    print("Strong Number")
+else:
+    print("Not a Strong Number")

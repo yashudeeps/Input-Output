@@ -1,0 +1,17 @@
+str=0
+x=0
+y=0
+while str!='STOP':
+    str=input().split()
+    if str[0]=='UP':
+        y+=int(str[1])
+    elif str[0]=='DOWN':
+        y-= int(str[1])
+    elif str[0]=='LEFT':
+        x-=int(str[1])
+    elif str[0]=='RIGHT':
+        x +=int(str[1])
+    elif str[0]=='STOP':
+        break
+print(round(pow(pow(x,2)+pow(y,2),0.5)))
+     

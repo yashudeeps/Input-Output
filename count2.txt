@@ -1,0 +1,11 @@
+str=input()
+chr="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"
+c=0
+d=0
+for i in str:
+    if i in chr:
+        c=c+1
+    else:
+        d=d+1
+print("Characters = %d"%c)
+print("Digits = %d"%d)

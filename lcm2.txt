@@ -1,0 +1,14 @@
+#python
+def lcm(n1,n2,i):
+    b=n1
+    if i%n1==0 and i%n2==0:
+        return i
+    else:
+        return lcm(n1,n2,i+1)
+n1=int(input())
+n2=int(input())
+if n1>n2:
+    i =n1
+else:
+    i=n2
+print(lcm(n1,n2,i))

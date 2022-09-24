@@ -1,0 +1,13 @@
+def eo(n):
+    if n==0:
+        return 0
+    elif n==1:
+        return 1
+    else:
+        return eo(n-2)
+n = int(input())
+result = eo(n)
+if result==0:
+    print("Even!")
+else:
+    print("Odd!")

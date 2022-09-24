@@ -1,0 +1,10 @@
+a=int(input('side_of_a_square:'))
+b=int(input('length_of_a_rectangle:'))
+c=int(input('breadth_of_a_rectangle:'))
+d=float(input('radius_of_a_circle:'))
+e=a*a
+f=b*c
+g=3.14*d*d
+print(e)
+print(f)
+print("%.2f"%g)

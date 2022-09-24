@@ -1,0 +1,9 @@
+n = int(input())
+l=[]
+m=[]
+for i in range(0,n):
+    l.append(int(input()))
+    if l[i] not in m:
+        m.append(l[i])
+        
+print(m)

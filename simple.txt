@@ -1,0 +1,6 @@
+#python
+pa=int(input())
+years=int(input())
+rate=float(input())
+si=((pa*years*rate)/100)
+print("%.2f"%si)

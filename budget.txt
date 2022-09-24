@@ -1,0 +1,11 @@
+b= 15000
+A=int(input())
+B=int(input())
+C=int(input())
+D=int(input())
+E=int(input())
+total= A*(350.34)+B*(230.90)+C*(190.55)+D*(125.30)+E*(180.90)
+if total <= b:
+    print("yes")
+else:
+    print("no")

@@ -1,0 +1,10 @@
+n1 = int(input())
+l1=[]
+l2=[]
+for i in range(n1):
+    l1.append(int(input()))
+n2 = int(input())
+for j in range(n2):
+    l2.append(int(input()))
+l=l1+l2
+print("Sorted list is:",sorted(l))

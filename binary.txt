@@ -1,0 +1,12 @@
+l=[]
+def recbi(n):
+    if n>0:
+        rem=n%2
+        l.append(rem)
+        n=n//2
+        recbi(n)
+    return l
+n = int(input())
+result=recbi(n)
+for i in range(len(result)-1,-1,-1):
+    print(result[i],end="")

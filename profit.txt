@@ -1,0 +1,11 @@
+a=float(input("Enter the price of a dozen mangoes "))
+b=float(input("Enter the price at which 1 mango is being sold "))
+c=b*12
+d=c-a
+e=a-c
+if(c>a):
+    print("\nProfit: Rs.",'%.2f'%d)
+elif(c<a):
+    print("\nLoss: Rs.",'%.2f'%e)
+else:
+    print("\nNo profit  nor loss")

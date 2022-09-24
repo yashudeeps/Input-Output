@@ -1,0 +1,6 @@
+str=input()
+ms=input()
+ms2=input()
+news=str.replace(ms,ms2)
+print("Modified string:")
+print(news)

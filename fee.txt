@@ -1,0 +1,17 @@
+a=input("Enter the student type")
+b=float(input("\nEnter tuition fee"))
+c=b+(b/2)
+if(a=='MSDS'):
+ d=float(input("\nEnter bus fee"))
+ print("\nThe fees  to be paid by the student is Rs."'%.2f'%(b+d))
+elif(a=='MSH'):
+ e=float(input("\nEnter hostel fee"))
+ print("\nThe fees to be paid by the  student is Rs."'%.2f'%(b+e))
+elif(a=='MGSDS'):
+ d=float(input("\nEnter bus fee"))
+ print("\nThe fees  to be paid by the student is Rs."'%.2f'%(c+d))
+elif(a=='MGSH'):
+ e=float(input("\nEnter hostel fee"))
+ print("\nThe fees to be paid by the  student is Rs."'%.2f'%(c+e))
+else:
+    print("Invalid")

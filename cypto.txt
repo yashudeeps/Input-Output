@@ -1,0 +1,29 @@
+def conv(ask):
+  i = 97-ask
+  return 123-i
+n = int(input())
+result=[]
+if n>=1 and n<=50:
+    for i in range(1,n+1):
+        j=-1
+        e = ''
+        str = input()
+        l = len(str)
+        for i in range(l//2,-1,-1):
+            j = j+1
+            ask=ord(str[i])-j
+            if ask<97:
+                e=chr(conv(ask))+e
+            else:
+                e=chr(ask)+e
+        j=0
+        for i in range(l//2+1,l):
+            j=j+1
+            ask = ord(str[i])-j
+            if ask< 97:
+                e=e+chr(conv(ask))
+            else:
+                e=e+chr(ask)
+        result.append(e)
+for i in result:
+    print(i) 

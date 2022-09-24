@@ -1,0 +1,8 @@
+a=int(input("Enter Year  of Birth"))
+b=int(input("\nEnter Current year"))
+c=2000+b
+d=1900+a
+if(b>a):
+    print("\nYour age is",(b-a))
+else:
+    print("\nYour age is",(c-d))

@@ -1,0 +1,5 @@
+def cube(i):
+    result= i*i*i
+    return result
+n = int(input())
+print(cube(n))

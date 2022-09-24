@@ -1,0 +1,17 @@
+keys=[]
+values=[]
+n=int(input("Enter number of elements for dictionary:"))
+print("For keys:")
+for x in range(0,n):
+    element=int(input())
+    keys.append(element)
+print("For values:")
+for x in range(0,n):
+    element=int(input())
+    values.append(element)
+d={}
+for i in range(n):
+    a={keys[i]:values[i]}
+    d.update(a)
+print("The dictionary is:")
+print(d)
